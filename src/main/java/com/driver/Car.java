@@ -25,8 +25,42 @@ public class Car extends Vehicle {
         isManual = manual;
     }
 
+
+
     public Car(){
 
+    }
+
+    public int getWheels() {
+        return wheels;
+    }
+
+    public void setWheels(int wheels) {
+        this.wheels = wheels;
+    }
+
+    public int getDoors() {
+        return doors;
+    }
+
+    public void setDoors(int doors) {
+        this.doors = doors;
+    }
+
+    public int getGears() {
+        return gears;
+    }
+
+    public void setGears(int gears) {
+        this.gears = gears;
+    }
+
+    public int getSeats() {
+        return seats;
+    }
+
+    public void setSeats(int seats) {
+        this.seats = seats;
     }
 
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
