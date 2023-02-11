@@ -63,6 +63,14 @@ public class Car extends Vehicle {
         this.seats = seats;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
         //Hint: Car extends Vehicle
         this.setName(name);
@@ -71,6 +79,7 @@ public class Car extends Vehicle {
         this.gears=gears;
         this.isManual=isManual;
         this.seats=seats;
+        this.type=type;
         this.currentGear=1;
     }
 
